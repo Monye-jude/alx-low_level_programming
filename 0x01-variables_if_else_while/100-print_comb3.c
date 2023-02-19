@@ -4,7 +4,6 @@
 /**
 * main - Write a program that prints all
 * possible different combinations of two digits.
-*
 *Return: 0 for success
 */
 int main(void)
@@ -21,11 +20,10 @@ int main(void)
 		putchar(d);
 		putchar(p);
 		if (d == '8' && p == '9')
-		{
 		continue;
 		putchar(',');
 		putchar(' ');
-		}
+	}
 	}
 	}
 	putchar('\n');
