@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <time.h>
 /**
 * main - Write a program that prints all
 * possible different combinations of two digits.
@@ -8,7 +9,7 @@
 */
 int main(void)
 {
-	jnt d, p;
+	int d, p;
 
 	for (d = '0'; d < '9'; d++)
 	{
