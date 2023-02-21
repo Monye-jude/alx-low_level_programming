@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * Main - Program to print alphabet
- * with custom header you have created
+ * print_alphabet - prints alphabet
+ * with custom header that I have created
  * Return: void
  */
 
