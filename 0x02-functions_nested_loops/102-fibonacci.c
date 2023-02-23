@@ -21,9 +21,9 @@ int main(void)
 		{
 			k += j;
 			j = k - j;
-			printf(", %d", k);
+			printf(", %ld", k);
 		}
-		++1;
+		++i;
 	}
 	printf("\n");
 	return (0);
