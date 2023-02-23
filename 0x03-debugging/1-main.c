@@ -3,8 +3,8 @@
 /**
 * main - causes an infinite loop
 * Return: 0
+* This code should be 24 lines of code
 */
-
 
 
 int main(void)
